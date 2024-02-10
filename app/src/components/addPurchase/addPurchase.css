@@ -1,0 +1,111 @@
+#add-form {
+    display: inline-block;
+    width: 100%;
+}
+
+#add-form h1 {
+    text-align: center;
+    font-size: 32px;
+}
+
+
+#add-form #add-product {
+    float: left;
+    width: calc(45% - 2px);
+    margin-left: 10%;
+}
+
+#add-product #products {
+    display: block;
+    width: 60%;
+    margin-left: 16%;
+    padding: 6px 4px;
+    font-size: 16px;
+    background-color: #eee;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+#add-product .form-control {
+    float: left;
+    width: 98%;
+    padding: 0 1%;
+}
+.form-control label {
+    display: inline;
+    font-size: 12px;
+    color: #333;
+    font-style: italic;
+}
+.form-control input {
+    width: 90%;
+    padding: 5px;
+    margin: 0;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-bottom-width: 2px;
+}
+
+.form-control.edit-amount, .form-control.edit-price {
+    width: 30%;
+}
+.form-control.edit-amount input[type='number'], .form-control.edit-price input[type='number'] {
+    width: 40%;
+}
+.form-control .date-input input {
+    width: 15%;
+}
+.form-control .date-input #months {
+    width: 20%;
+    font-size: 16px;
+}
+
+
+
+
+#add-form img {
+    float: right;
+    width: 20%;
+    margin-right: 20%;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+
+#add-form #products-list {
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+
+
+form input[type='submit'], input[type='button'] {
+    color: #fff;
+    font-size: 20px;
+    background-color: rgb(25, 43, 177);
+    border-radius: 5px;
+    padding: 5px;
+    width: 30%;
+    margin-left: calc(34% - 5px);
+    margin-top: calc(2% + 10px);
+}
+form input[type='submit']:hover, input[type='button']:hover {
+    cursor: pointer;
+    background-color: rgba(25, 43, 177, .9);
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

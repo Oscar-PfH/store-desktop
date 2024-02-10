@@ -1,0 +1,98 @@
+#add-form {
+    display: inline-block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#add-form h1 {
+    text-align: center;
+    font-size: 32px;
+}
+
+#add-form #item-type {
+    display: block;
+    width: 16%;
+    margin-left: 24%;
+    padding: 6px 4px;
+    font-size: 16px;
+    background-color: #eee;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+#add-form form {
+    float: left;
+    width: calc(45% - 2px);
+    margin-left: 10%;
+}
+
+form .form-control {
+    float: left;
+    width: 98%;
+    padding: 0 1%;
+}
+.form-control label {
+    display: inline;
+    font-size: 12px;
+    color: #333;
+    font-style: italic;
+}
+.form-control input {
+    width: 90%;
+    padding: 5px;
+    margin: 0;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    border: 1px solid #aaa;
+    border-bottom-width: 2px;
+}
+
+.form-control.pwa {
+    width: 30%;
+}
+.form-control.pwa input[type='text'] {
+    width: 90%;
+}
+.form-control.pwa input[type='number'] {
+    width: 80%;
+}
+
+
+
+
+#add-form img {
+    float: right;
+    width: 30%;
+    margin-right: 15%;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+form input[type='submit'] {
+    color: #fff;
+    font-size: 20px;
+    background-color: rgb(25, 43, 177);
+    border-radius: 5px;
+    padding: 5px;
+    width: 32%;
+    margin-left: calc(34% - 5px);
+    margin-top: 10px;
+}
+form input[type='submit']:hover {
+    cursor: pointer;
+    background-color: rgba(25, 43, 177, .9);
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

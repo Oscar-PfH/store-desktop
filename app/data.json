@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Tarro de leche",
+        "brand": "Gloria",
+        "price": 4.5,
+        "bought_for": null,
+        "weight": "450 ml",
+        "amount": 45,
+        "arrival_date": "16-02-23",
+        "image": "https://www.gloria.com.pe/uploads/products/lacteos/externa.jpg"
+    },
+    {
+        "name": "Mantequilla",
+        "brand": "Sello de Oro",
+        "price": 2.5,
+        "bought_for": null,
+        "weight": "90 g",
+        "amount": 15,
+        "image": "https://metroio.vtexassets.com/arquivos/ids/165597/Margarina-Sello-de-Oro-Barra-90-g-3221.jpg?v=637713801504470000"
+    },
+    {
+        "name": "Aceite",
+        "brand": "Cocinero",
+        "price": 9.2,
+        "bought_for": null,
+        "weight": "900 ml",
+        "amount": 24,
+        "image": "https://wongfood.vteximg.com.br/arquivos/ids/562579-750-750/Aceite-Vegetal-Cocinero-900ml-1-37632.jpg?v=637932593826830000"
+    },
+    {
+        "name": "Aceite",
+        "brand": "Cil",
+        "price": null,
+        "bought_for": 35.7,
+        "weight": "5 L",
+        "amount": 8,
+        "image": "https://cdn.shopify.com/s/files/1/0286/1380/4129/products/image-2265_1200x1200.jpg?v=1646676931"
+    },
+    {
+        "name": "Levadura",
+        "brand": "Fleischmann",
+        "price": null,
+        "bought_for": 8.0,
+        "weight": "500 g",
+        "amount": 20,
+        "image": "https://d20f60vzbd93dl.cloudfront.net/uploads/tienda_010816/tienda_010816_7bdf20ab1d0d43b6136e3cd30e063747c30de561_producto_large_90.png"
+    },
+    {
+        "name": "Fideos",
+        "brand": "Molitalia",
+        "price": 2.5,
+        "bought_for": null,
+        "weight": "250 g",
+        "amount": 100,
+        "image": "https://mmkfoods.pe/wp-content/uploads/2020/08/IMG_3009.png"
+    },
+
+    {
+        "name": "Fideos",
+        "brand": "Molitalia",
+        "price": null,
+        "bought_for": 35.0,
+        "units": 20,
+        "weight": "250 g",
+        "amount": 5,
+        "image": "https://mmkfoods.pe/wp-content/uploads/2020/08/IMG_3009.png"
+    },
+    {
+        "name": "Leche",
+        "brand": "Gloria",
+        "price": null,
+        "bought_for": 42.5,
+        "units": 48,
+        "weight": "450 ml",
+        "amount": 10,
+        "image": "https://plazavea.vteximg.com.br/arquivos/ids/561839-1000-1000/20193749.jpg?v=637427445826170000"
+    },
+    {
+        "name": "Mantequilla",
+        "brand": "Sello de Oro",
+        "price": null,
+        "bought_for": 16.5,
+        "units": 20,
+        "weight": "90 g",
+        "amount": 6,
+        "image": "https://corporacionliderperu.com/40288-large_default/sello-de-oro-margarina-barra-x-90-gr-x-20-un.jpg"
+    },
+    {
+        "name": "Aceite",
+        "brand": "Cocinero",
+        "price": null,
+        "bought_for": 63.5,
+        "units": 18,
+        "weight": "900 ml",
+        "amount": 3,
+        "image": "https://sumerlabs.com/sumer-app-90b8f.appspot.com/product_photos%2Fbf76a44abd15a4d753b6fa3b8e0498bb%2F3f4a4230-475b-11ec-90f4-77a01925c8dd?alt=media&token=586959a8-aa49-4206-9d09-e29deb82e21b"
+    }
+]

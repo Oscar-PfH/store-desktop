@@ -1,0 +1,100 @@
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 8%;
+    margin-bottom: 1%;
+    background-color: #fff;
+}
+.modal-header h2 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+}
+.modal-header .close {
+    cursor: pointer;
+}
+
+
+
+.modal-body {
+    float: left;
+    width: 50%;
+    height: 80%;
+    background-color: #fff;
+}
+.modal-body .product-prop {
+    width: 100%;
+}
+.modal-body .product-prop .item-icon {
+    float: left;
+    clear: left;
+}
+.modal-body .product-prop h3 {
+    margin: 0;
+    float: left;
+    color: #333;
+}
+.modal-body .product-prop p {
+    float: left;
+    clear: both;
+    width: 50%;
+    margin: 0;
+    padding-left: 10%;
+    font-size: 20px;
+    text-align: left;
+}
+
+
+.modal-image {
+    float: right;
+    width: 50%;
+}
+.modal-image img {
+    margin-left: 15%;
+    width: 70%;
+    height: 70%;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+}
+
+
+
+.modal-footer {
+    float: left;
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    margin: 0;
+}
+.modal-footer button {
+    width: 20%;
+    font-size: 20px;
+    color: #fff;
+    background-color: blue;
+    border-radius: 10px;
+}
+.modal-footer .edit-btn {
+    padding: 5px 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(7, 7, 112);
+    border-radius: 10px;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-right: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.modal-footer .edit-btn:hover {
+    background-color: rgb(7, 7, 240);
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+}
